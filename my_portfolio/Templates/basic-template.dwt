@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<div id="container">
+  <header></header>
+  <nav>
+	  <ul>
+		<a href="#">About</a> 
+		 <a href="#">Blog</a>
+		 <a href="#">Gallery</a>
+		 <a href="#">Contact</a>
+	  </ul>
+	</nav>
+  <aside><h3>Im an student at cox mill high school
+  and this is about my hobbys</h3> </aside>
+  <!-- TemplateBeginEditable name="main-content" -->
+  <article>
+    <h1>Page title</h1>
+  </article>
+  <!-- TemplateEndEditable -->
+<footer>Content for New footer Tag Goes Here</footer>
+</div>
+</body>
+</html>

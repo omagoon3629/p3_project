@@ -1,0 +1,187 @@
+@charset "utf-8";
+<style type="text/css">
+body {
+    background-color: #FF6264;
+    color: #1F1F1F;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(images/Fire.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+	margin: 50px 0px 0px 0px;
+}
+
+#container {
+	width: 1280px;
+	height: auto;
+	background-color: rgba(255,255,255,1.00);
+	margin: auto;
+}
+
+
+aside {
+    width: 150px;
+    height: 600px;
+    Background-color: green;
+    float: left;
+}
+
+body {
+    background-image: url(images/Grean.jpg);
+    background-size: cover;
+    font-size: 14pt;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	
+}
+img {
+}
+
+
+
+
+
+
+main {
+    width: 1280px;
+    height: 600px;
+    float: left;
+}
+footer {
+    width: 1280px;
+    height: 50px;
+    clear: both;
+}
+
+h1 {
+    color: #775926;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+p {
+}
+nav {
+    width: 1290px;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+}
+ul {
+    margin: auto;
+    width: 500px;
+}
+.submit_btn {
+    width: 80px;
+    height: 30px;
+    background-color: #9DF900;
+    color: #99FF00;
+}
+.column {
+    width: 1280px;
+    height: 750px;
+    border: 10px solid #B807B7;
+    float: none;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
+article {
+    width: 1280px;
+    height: 750px;
+}
+
+@media (max-width : 769px ){
+	#container {
+		width: 768px;
+}
+	nav {
+		width: 768;
+	}
+	
+	header {
+		width: 768px;
+
+	}
+	
+	main {
+		width: 598px;
+	}
+	
+	Article {
+		width: 598px
+	}
+	footer {
+		width: 768px
+	}
+	
+	.column {
+		margin: 0px 20px 0px 20px;
+	}
+	
+	}
+@media (max-width: 768px){
+
+	container {
+		width: 300px;
+}
+	nav {
+		width: 300px;
+		height: 200px;
+		position: static;
+	}
+	
+	header {
+		width: 300px;
+		
+
+	}
+	
+	main {
+		width: 300px;
+	}
+	
+	Article {
+		width: 300px
+	}
+	footer {
+		width: 300px
+	}
+	
+	aside {
+		display: none;
+	}
+	
+	#container nav li {
+		display: list-item;
+		list-style-type: none;
+		float: none;
+		margin: 0px 0px 20px 0px;
+		width: 260px;
+		text-align: center;
+	}
+	
+	.column {
+		margin: 0px 20px 0px 20px;
+	}
+	
+	
+
+@media only screen and (min-width:375px){
+}
+	}
